@@ -1,0 +1,50 @@
+.contact-info{
+    height:100%;
+    overflow: scroll;
+}
+.contact-info::-webkit-scrollbar{
+  display: none;
+}
+.contact-profile-pic{
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+}
+.contact-user-info{
+    display: flex;
+    margin:10px;
+    padding: 20px;;
+    font-family:"Century Gothic";
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 550;
+    border:1px solid lightgrey;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+   
+}
+.contact-user-name{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.shared-media{
+    display: flex;
+    margin:5px;
+    padding: 10px;;
+    justify-content: center;
+    flex-direction: column;
+    border:1px solid lightgrey;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+}
+.shared-media .gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shared-media .gallery img{
+    height: 116px;
+    width:95px;
+    margin:3px;
+}

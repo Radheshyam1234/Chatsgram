@@ -1,0 +1,19 @@
+.left{
+    height:90vh;
+    width:30vw;
+    position: absolute;
+    background-color: #f0e9e9;
+    transition: all ease 0.3s;
+    z-index: 100;
+}
+
+
+@media (max-width:768px){
+    .left{
+        height:100vh;
+    width:100vw;
+    position: absolute;
+    background-color: #ddd5d5;
+    transition: all ease 0.3s;
+    }
+}

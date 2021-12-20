@@ -1,0 +1,70 @@
+.profile{
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.profile-header{
+    /* background-color: #11af9a; */
+    background-color:#487ad6;
+    height:100px;
+    display:flex;
+   align-items:center;
+   color:White
+    
+}
+
+.profile-header >.MuiSvgIcon-root{
+    color:white;
+}
+
+.profile-header h3{
+   margin-left:5%;
+    font-size: x-large;
+}
+
+.profile-pic{
+    display:flex;
+    justify-content: center;
+    margin:8%;
+    cursor:pointer;
+}
+.profile-image-input{
+    height:0px;
+    width:0px;
+}
+
+.profile-information{
+background-color: #ffffff;
+height:13%;
+display:flex;
+flex-direction: column;
+padding: 4%;
+}
+
+
+.profile-info-name{
+    /* color:#00bfa5; */
+    color:#487ad6;
+    font-weight: 600;
+}
+
+.profile-info-about{
+    color:#487ad6;
+    font-weight: 600;
+}
+
+.profile-info-edit{
+    display:flex;
+    align-items: center;
+    margin-top:10px;
+}
+
+.profile-info-edit > input{
+    width:90%;
+    height:30px;
+    border:none;
+    outline: none;
+    font-size: 1rem;
+
+}

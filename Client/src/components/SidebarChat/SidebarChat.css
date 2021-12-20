@@ -1,0 +1,46 @@
+.sidebar-chat{
+ 
+    display:flex;
+    /* align-items: center; */
+    cursor:pointer;
+    border-bottom:1px solid #f5efef;
+    background-color: white;
+    padding:15px;
+    /* object-fit: contain; */
+
+}
+
+.sidebar-chat:hover{
+    background-color:#ebebeb;
+    
+}
+.sidebar-chat-info{
+    margin-left:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sidebar-chat-info h2{
+    font-size:16px;
+    margin-top:5px;
+    color:#303952;
+    font-family: cursive;
+}
+
+.sidebar-chat-info p{
+  margin-bottom: -3px;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+
+@media(max-width:768px){
+    .sidebar-chat{
+        padding:8px;
+    }
+    .sidebar-chat-info{
+        margin-left:22px;
+    }
+    
+}

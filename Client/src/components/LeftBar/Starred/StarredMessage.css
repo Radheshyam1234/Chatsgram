@@ -1,0 +1,8 @@
+
+.starredmesage-body{
+    height:85vh;
+    overflow: scroll;
+}
+.starredmesage-body::-webkit-scrollbar{
+    display:none
+}

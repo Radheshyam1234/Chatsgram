@@ -1,0 +1,85 @@
+.group-info{
+    height:100%;
+    overflow: scroll;
+}
+.group-info::-webkit-scrollbar{
+  display: none;
+}
+.group-profile-pic{
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.group-details{
+    display: flex;
+    margin:10px;
+    padding: 20px;;
+    font-family:"Century Gothic";
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 550;
+    border:1px solid lightgrey;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+   
+}
+.group-name-heading{
+    color:seagreen;
+    font-size: small;
+}
+
+.group-description-heading{
+    color:sienna;
+    font-size: small;
+}
+.group-description{
+  font-size: small;
+}
+
+.group-creation-heading{
+    color:slateblue;
+    font-size: small;
+}
+
+.edit-btn{
+    padding:6px;
+    border:none;
+    background-color: rgb(24, 160, 92);
+    color:white;
+    font: large;
+    cursor: pointer;
+}
+
+
+ .group-info input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .group-info input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .group-info input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .group-info .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }

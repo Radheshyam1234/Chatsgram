@@ -1,0 +1,40 @@
+.login-form{
+  display:flex;
+  justify-content: center;
+  
+
+}
+.form-input{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0984e3;
+  padding:6%;
+  border-radius: 5px 40px 5px 40px;
+}
+
+
+.form-group input{
+  padding:8px;
+  margin:5px;
+  outline: none;
+  border:1px solid #0984e3; 
+
+}
+
+ .login-btn .log-btn{
+  margin-top: 10px;
+  color:#0984e3;
+  font-weight: 700;
+  font-size: large;
+  background-color:white;
+  border:none;
+  padding:10px;
+  cursor: pointer;
+}
+
+.login-btn .log-btn:hover{
+  background-color:green;
+  color: white;
+}
