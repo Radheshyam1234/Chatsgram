@@ -32,5 +32,4 @@ It is Chatapp, used to chat with others and share your pictures, star a message,
 * **Deployment:** Heroku
 * **Socket.io** has been used for Real time chatting
 
-## Demo Link
-*  https://chatsgram.herokuapp.com/
+
